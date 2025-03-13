@@ -1,4 +1,4 @@
-📜 Dokumentasi Struktur Proyek BLOG-APP
+<h1>📜 Dokumentasi Struktur Proyek BLOG-APP</h1>
 
 👤 Nama: Nadzare Kafah Alfatiha
 📆 NIM: H1D023014
@@ -36,6 +36,8 @@ BLOG-APP/
 │── index.php       # Halaman utama yang menampilkan daftar artikel dengan pagination
 │── login.php       # Halaman login menggunakan username dan email
 │── logout.php      # Proses logout dan menghapus sesi pengguna
+
+
 3️⃣ PENJELASAN FUNGSI SETIAP FILE
 📂 1. Folder classes/ (Model – PHP OOP)
 Berisi kelas-kelas utama untuk mengelola data di aplikasi.
@@ -118,6 +120,8 @@ Jika berhasil, pengguna diarahkan ke index.php.
 logout.php
 
 Menghapus sesi pengguna dan mengarahkan ke halaman login.
+
+
 4️⃣ FITUR UTAMA
 ✅ Manajemen Pengguna (Login & Logout)
 ✅ Manajemen Artikel (CRUD - Create, Read, Update, Delete)
@@ -125,11 +129,13 @@ Menghapus sesi pengguna dan mengarahkan ke halaman login.
 ✅ Komentar pada Artikel
 ✅ Autentikasi dengan Session
 
+
 5️⃣ TEKNOLOGI YANG DIGUNAKAN
 Backend: PHP (OOP, PDO)
 Frontend: Bootstrap, jQuery, DataTables
 Database: MySQL
 Keamanan: Session, Prepared Statements
+
 
 6️⃣ PENUTUP
 Aplikasi BLOG-APP dikembangkan untuk menyediakan sistem manajemen artikel yang sederhana namun fungsional. Dengan fitur CRUD artikel, komentar, serta autentikasi pengguna, aplikasi ini dapat digunakan sebagai dasar untuk proyek pengembangan lebih lanjut.
